@@ -1,4 +1,4 @@
-# Sentiment Trading Project - Quick Reference
+# Quick Reference
 
 ## One-Command Setup
 ```bash
