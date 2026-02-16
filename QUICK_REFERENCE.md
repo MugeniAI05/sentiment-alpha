@@ -64,7 +64,7 @@ python src/backtesting/backtest_engine.py \
     --output results/backtest
 ```
 
-## Key Files to Review for Interviews
+## Key Files for Interviews
 
 1. **src/data_collection/reddit_scraper.py** - Shows data engineering skills
 2. **src/sentiment/sentiment_analyzer.py** - NLP implementation
