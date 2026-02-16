@@ -130,24 +130,16 @@ End-to-end ML pipeline predicting stock movements from Reddit sentiment.
 - Outperformed buy-and-hold by 7% annually
 
 ## Installation
-[Your setup instructions here]
+[setup instructions here]
 
 ## Usage
-[Your pipeline commands here]
+[pipeline commands here]
 
 ## Methodology
-[Your approach here]
+[approach here]
 ```
 
-## Project Timeline
 
-Total: ~40 hours over 6 weeks
-- Week 1: Setup & Data Collection (8h)
-- Week 2: Sentiment Analysis (10h)
-- Week 3: Feature Engineering (8h)
-- Week 4: Model Development (8h)
-- Week 5: Backtesting (4h)
-- Week 6: Documentation (2h)
 
 ## File Structure Cheat Sheet
 
@@ -185,11 +177,3 @@ python -c "import pandas as pd; df=pd.read_csv('data/processed/sentiment.csv'); 
 # Check feature correlations
 python -c "import pandas as pd; df=pd.read_csv('data/features/AAPL_features.csv'); print(df[['sentiment_ensemble_compound_mean', 'target_24h']].corr())"
 ```
-
-## Remember for SIG Interview
-
-1. **Be honest about limitations** - This is educational, not production-ready
-2. **Emphasize rigor** - Walk-forward validation, transaction costs
-3. **Show failed attempts** - What didn't work and why
-4. **Discuss trade-offs** - FinBERT accuracy vs VADER speed
-5. **Business context** - Why alternative data matters in 2026
