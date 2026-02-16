@@ -231,7 +231,7 @@ pytest --cov=src tests/
 - Generate performance reports
 - Sensitivity analysis
 
-## 🎓 Learning Outcomes
+## Learning Outcomes
 
 This project demonstrates:
 1. **Alternative data expertise** - Non-traditional data sources
