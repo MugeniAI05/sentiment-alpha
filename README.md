@@ -1,8 +1,8 @@
 # Social Media Sentiment → Stock Price Prediction Pipeline
 
-A production-ready quantitative trading project that extracts sentiment from social media (Reddit, Twitter) and predicts stock price movements using machine learning.
+A system that extracts sentiment from social media (Reddit, Twitter) and predicts stock price movements using machine learning.
 
-## 🎯 Project Overview
+## Project Overview
 
 This pipeline demonstrates:
 - **Alternative data sourcing** - Reddit/Twitter API integration
@@ -12,7 +12,7 @@ This pipeline demonstrates:
 - **Backtesting** - Transaction costs, slippage, realistic assumptions
 - **Production code quality** - Testing, logging, configuration management
 
-## 📊 Expected Performance Baseline
+## Expected Performance Baseline
 
 Based on research:
 - Social media sentiment can predict stock movements 1-6 days in advance
@@ -22,7 +22,7 @@ Based on research:
 
 **Critical**: This is an educational project. Real alpha from sentiment decays quickly as more traders use it.
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 Data Collection → Sentiment Analysis → Feature Engineering → ML Model → Backtesting → Live Trading (optional)
@@ -57,7 +57,7 @@ Data Collection → Sentiment Analysis → Feature Engineering → ML Model → 
    - Position sizing & risk management
    - Walk-forward optimization
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 sentiment-trading/
@@ -106,7 +106,7 @@ sentiment-trading/
     └── model_performance/
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Setup Environment
 
@@ -167,7 +167,7 @@ python src/models/train.py --model lightgbm --validation walk_forward
 python src/backtesting/backtest_engine.py --strategy sentiment_momentum --costs 0.001
 ```
 
-## 📈 Key Metrics & Validation
+## Key Metrics & Validation
 
 ### Sentiment Quality Metrics
 - Correlation with next-day returns
@@ -186,7 +186,7 @@ python src/backtesting/backtest_engine.py --strategy sentiment_momentum --costs 
 - No look-ahead bias
 - 1-day holding period minimum
 
-## 🧪 Testing Strategy
+## Testing Strategy
 
 ```bash
 # Run all tests
@@ -199,7 +199,7 @@ pytest tests/test_sentiment.py -v
 pytest --cov=src tests/
 ```
 
-## 📚 Implementation Details
+## Implementation Details
 
 ### Phase 1: Data Collection (Week 1)
 - Set up Reddit/Twitter API access
@@ -240,11 +240,11 @@ This project demonstrates:
 4. **Software engineering** - Production-quality code
 5. **Domain knowledge** - Understanding market microstructure
 
-## ⚠️ Important Considerations
+## Important Considerations
 
 ### What Makes This Project Impressive to SIG:
 
-✅ **DO:**
+**DO:**
 - Use walk-forward validation (no future data leakage)
 - Model transaction costs realistically
 - Document all assumptions clearly
@@ -252,7 +252,7 @@ This project demonstrates:
 - Compare multiple sentiment models
 - Implement proper position sizing
 
-❌ **DON'T:**
+**DON'T:**
 - Cherry-pick time periods
 - Ignore transaction costs
 - Use look-ahead bias
@@ -260,7 +260,7 @@ This project demonstrates:
 - Overfit to specific stocks
 - Skip out-of-sample testing
 
-## 📊 Expected Results to Show
+## Expected Results to Show
 
 1. **Sentiment-Price Correlation Analysis**
    - Lead-lag relationships
@@ -281,7 +281,7 @@ This project demonstrates:
    - Impact of holding period
    - Impact of position sizing
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 - Real-time sentiment streaming
 - Multi-asset strategy (ETFs, indices)
@@ -289,20 +289,20 @@ This project demonstrates:
 - Cross-validation across market regimes
 - Portfolio optimization
 
-## 📖 References
+## References
 
 - ["Predicting Stock Market Movement with Social Media Sentiment"](https://research-papers)
 - FinBERT: Financial Sentiment Analysis with Pre-trained Language Models
 - VADER Sentiment Analysis
 
-## 🤝 Contributing
+## Contributing
 
 This is a portfolio project, but feedback is welcome via issues.
 
-## ⚖️ Disclaimer
+## Disclaimer
 
 This is for educational purposes only. Not financial advice. Past performance does not guarantee future results. Trading involves risk of loss.
 
-## 📄 License
+## License
 
 MIT License - See LICENSE file for details
