@@ -66,7 +66,7 @@ python src/backtesting/backtest_engine.py \
 
 ## Key Files for Interviews
 
-1. **src/data_collection/reddit_scraper.py** - Shows data engineering skills
+1. **src/data_collection/reddit_scraper.py** - Data engineering skills
 2. **src/sentiment/sentiment_analyzer.py** - NLP implementation
 3. **src/models/train.py** - ML best practices, validation
 4. **src/backtesting/backtest_engine.py** - Trading logic, risk management
